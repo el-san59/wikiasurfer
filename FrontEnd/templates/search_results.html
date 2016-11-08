@@ -1,0 +1,20 @@
+{% extends "search.html" %}
+{% block results %}
+    <ul class="entries">
+        {% if entries %}
+            {% for entry in entries %}
+                <p><h2><a href="{{ entry.ref }}">{{ entry.title }}</a></h2>{{ entry.text|safe }}
+                {% if entry.images %}
+                    <br>
+                    {% for image in entry.images %}
+                        <img src="{{ url_for('static', filename=image) }}" alt="HTML5 Icon" style="width:128px;height:128px;">
+                    {% endfor %}
+                    </br>
+                {% endif %}
+                </p>
+            {% endfor %}
+        {% else %}
+            <li><em>The search has not given any results.</em>
+        {% endif %}
+    </ul>
+{% endblock %}
