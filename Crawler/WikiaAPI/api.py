@@ -35,7 +35,7 @@ def get_wikia_articles(**kwargs):
 
     :rtype: json
     :param kwargs:
-        category: Return only articles belonging to the provided valid category title (string)
+        category: Return only urls belonging to the provided valid category title (string)
         namespaces: Comma-separated namespace ids (string)
         limit: Limit the number of results (int)
         offset: Lexicographically minimal article title (string)

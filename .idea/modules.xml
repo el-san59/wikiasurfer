@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/wikiasurfer.iml" filepath="$PROJECT_DIR$/.idea/wikiasurfer.iml" />
+      <module fileurl="file://$USER_HOME$/Excercises_5/.idea/Excercises_5.iml" filepath="$USER_HOME$/Excercises_5/.idea/Excercises_5.iml" />
+      <module fileurl="file://$USER_HOME$/Excercises_6/.idea/Excercises_6.iml" filepath="$USER_HOME$/Excercises_6/.idea/Excercises_6.iml" />
     </modules>
   </component>
 </project>
